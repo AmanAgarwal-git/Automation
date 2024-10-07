@@ -28,21 +28,20 @@ It validates the following features of the **Booking API**:
 This ensures the API works as expected and conforms to the desired specifications.
 
 ## Project Structure
-
 src
 ├── test
 │   ├── java
-│   │     └── Bookings
-│   │     │        └── CommonFeatures
-│   │     │        └── Flows
-│   │     │        └── TestRunner.java
-│   │     └── karate.config.js
-│   │     └──logback-test.xml
+│   │   └── Bookings
+│   │       ├── CommonFeatures
+│   │       ├── Flows
+│   │       └── TestRunner.java
 │   ├── resources
-│   │   └── BookingDetailsSchema.json
+│   │   ├── BookingDetailsSchema.json
 │   │   └── CreateBookingSchema.json
-│   └── utils
-│       └── bookings.csv
+│   ├── utils
+│   │   └── bookings.csv
+│   ├── karate.config.js
+│   └── logback-test.xml
 ├── booking.feature
 └── README.md
 
