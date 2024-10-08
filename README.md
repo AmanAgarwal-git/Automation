@@ -48,14 +48,14 @@ src
 ## Prerequisites
 
 Before running the tests, make sure you have the following installed:
-	Java JDK
-	Maven
+	a. Java JDK
+	b. Maven
 
 ## Installation
 
 1. Clone this repository to your local machine:
-	git clone [https://github.com/AmanAgarwal-git/Automation.git]
-	cd Automation
+	a. git clone [https://github.com/AmanAgarwal-git/Automation.git]
+	b. cd Automation
 
 2. Install dependencies by running:
 	mvn clean install
